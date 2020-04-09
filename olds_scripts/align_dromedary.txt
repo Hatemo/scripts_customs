@@ -16,7 +16,7 @@ prontera,150,170,6	script	Align	742,{
 	if (getgmlevel() < 99) end;
 	goto OnTimer180000;	
 OnWin:
-	npctalk "Bravo ! You take "+ ( getnpctimer(0) / 1000 ) +" seconds!";
+	npctalk "Bravo ! You take "+ (getnpctimer(0) / 1000) +" seconds!";
 	monster "prontera",155,172,"--ja--",1324,1;
 	.@win++;
 	sleep 5000;

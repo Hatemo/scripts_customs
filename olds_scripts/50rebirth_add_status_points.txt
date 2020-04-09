@@ -34,7 +34,7 @@ function weightreq;			// check if your current weight is highter than weight hig
 
 
 	.@eac = eaclass();
-	if ( num_rebirth == .reset_max ) {
+	if (num_rebirth == .reset_max) {
 		mes "You can only rebirth x"+ .reset_max +".";
 		emotion e_gasp;
 		close;
