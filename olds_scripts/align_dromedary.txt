@@ -13,7 +13,7 @@
 
 prontera,150,170,6	script	Align	742,{
 	npctalk "Force the dromedary to be in the same direction.";
-	if( getgmlevel() < 99 ) end;
+	if (getgmlevel() < 99) end;
 	goto OnTimer180000;	
 OnWin:
 	npctalk "Bravo ! You take "+ ( getnpctimer(0) / 1000 ) +" seconds!";
